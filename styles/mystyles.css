@@ -1,0 +1,75 @@
+/* Matthew Lee 4/16/2022 15:36 */
+body {
+    background-image:linear-gradient(black,black,rgb(32, 74, 81),lightblue,aliceblue)
+}
+.white {
+    color:white;
+}
+a:hover {
+    font-size: 20px;
+    font-weight:bold;
+    color:aliceblue;
+}
+.column1 {
+    float:center;
+    width:50%;
+    padding: 10px;
+    text-align:center;
+    font-weight:bold;
+   
+}
+.row:after {
+    content:"";
+    display:table;
+    clear:both;
+}
+mark {
+    background-color:#555555;
+    color:aliceblue;
+}
+img {
+    padding-top:20px;
+    padding-left: 100px;
+    padding-right:100px;
+    width:100%;
+    position:relative;
+}
+.bodyborder{
+    border:none;
+}
+.center{
+    float:center;
+    text-align:center;
+    color:#555555;
+}
+.blackback{
+    background-image:linear-gradient(Black,black,gray);
+}
+li {
+    Text-align:left;
+    padding:5px;
+    margin-left:100px;
+}
+.smaller{
+    font-size: 14px;
+}
+.bold {
+    font-weight: bold;
+}
+.cf {
+    text-align:center;
+    float:center;
+}
+.ml{
+    padding-left:50px;
+}
+.underline {
+    text-decoration-line: underline;
+}
+.clmn {
+    flex:33.33%;
+    padding:0px;
+}
+.roww{
+    display:flex;
+}
